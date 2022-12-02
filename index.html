@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>BGST</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+<div class="container-{breakpoint} overflow-hidden">
+    <!----------------------------------------Home------------------------------------------->
+    <div id="home"></div>
+    <div class="container-{breakpoint} sticky-top">
+        <div class="announcement">
+            <marquee direction="left" behavior="loop">
+            <h4> FREE SHIPPING IN PH NATIONWIDE!!! <span class="a">Minimum Purchase worth Php1000 only!</span></h4>
+            </marquee>
+        </div>
+        <!---------------------Navigation Bar----------------------->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid ">
+              <a class="navbar-brand p-0" href="home">
+                <img src="logobgst.png" id="logo" alt="BGST Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu bg-dark ps-1 pe-1" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">History</a></li>
+                      <li><a class="dropdown-item" href="#">Vision/Mission</a></li>
+                      <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu bg-dark ps-1 pe-1" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Boobie Treats</a></li>
+                      <li><a class="dropdown-item" href="#">Boobie Essentials</a></li>
+                      <li><a class="dropdown-item" href="#">Non-Lactation Goodies</a></li>
+                      <li><a class="dropdown-item" href="#">Gifts & Vouchers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Information
+                    </a>
+                    <ul class="dropdown-menu bg-dark ps-1 pe-1" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">FAQs</a></li>
+                      <li><a class="dropdown-item" href="#">What are Galactogogoes?</a></li>
+                      <li><a class="dropdown-item" href="#">Helpful Tips</a></li>
+                      <li><a class="dropdown-item" href="#">Shipping/Delivery</a></li>
+                      <li><a class="dropdown-item" href="#feedbacks">Reviews</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Connect with Us
+                    </a>
+                    <ul class="dropdown-menu bg-dark ps-1 pe-1" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Blogs</a></li>
+                      <li><a class="dropdown-item" href="#">Share your BF Journey</a></li>
+                      <li><a class="dropdown-item" href="#">Subscribe</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <ul class="d-flex justify-content-end" id="nav-icon">
+                    <li class="nav-item fs-3">
+                        <a class="nav-link" href="#">
+                          <i class="bi bi-cart ps-3 pe-3"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item fs-3">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-person-fill ps-3 pe-3"></i>
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" id="search" type="submit">
+                    <i class="bi bi-search ps-2 pe-2"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      
+    </div>
+
+    <!----------------------Heading-------------------------->
+    <div class="container-fluid pt-5 pb-4">
+        <h1 class="fw-bold"> Boobie Goodies & Sweet Treats</h1>
+    </div>
+
+    <!-------------------Sale/Promotions-------------------->
+    <div id="sale" class="carousel slide mt-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#sale" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#sale" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#sale" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#sale" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#sale" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="bgst1.webp" alt="bgst1" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="bgst2.webp" alt="bgst2.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="bgst3.webp" alt="bgst3.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="bgst4.webp" alt="bgst4.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="bgst5.webp" alt="bgst5.webp" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#sale" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#sale" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#sale" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#sale" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>  
+    
+    <!-------------------Top Products-------------------->
+    <div id="fav" class="container-fluid pt-5">
+        <h3> Our Favorites</h3>
+        <div class="row pt-2">
+            <div class="col-3">
+                <div class="gallery">
+                    <a target="_blank" href="image4.jpg">
+                    <img src="image4.jpg" alt="Lactation Cookie Premix" >
+                    </a>
+                    <div class="desc">Lactation Cookie Premix<br><b>Php500</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="gallery">
+                    <a target="_blank" href="image5.jpg">
+                    <img src="image5.jpg" alt="White Choc Lactation Cookies" >
+                    </a>
+                    <div class="desc">White Choc Lactation Cookies<br><b>Php300</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="gallery">
+                    <a target="_blank" href="image6.jpg">
+                    <img src="image6.jpg" alt="Boobie Booster Bundle" >
+                    </a>
+                    <div class="desc">Boobie Booster Bundle<br><b>Php1000</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="gallery">
+                    <a target="_blank" href="image7.jpg">
+                    <img src="image7.jpg" alt="Wearable Boobie Pump" >
+                    </a>
+                    <div class="desc">Wearable Boobie Pump<br><b>Php1500</b>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!-----------------------------Reviews---------------------------->
+    <div class="container-fluid pt-5" id="feedbacks">
+        <h3>Let Customers Speak for Us</h3> 
+    </div>
+    <div class="container-fluid pt-2 mt-0" id="reviews">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">May A.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">It's very tasty with rich chocolate flavour and not too sweet it's colour is also attractive. </p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p2.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Luz G.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">The best flavour hands down! Love the chunky pieces! Will definately buy more!</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p3.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Maan L.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">Love these cookies! Also I can definitely feel my supply increase. Thank you very much!</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p4.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Yza D.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">Cookies came quickly and were very delicious not to mention it is also very effective.</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p5.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Myka B.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">Sooooo yummy! It was so hard to limit myself so I didnt run out all in one day hahah!</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p6.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Gelai A.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">This is my third time purchasing these delicious cookies and salted caramel is my fave flavour!!!</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p7.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Gladhiz T.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">My supply was dropping, after a couple hours my boobs were full again!</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p8.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Jennifer B.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">I love these products and will definitely be purchasing them regularly.</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="p9.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Faith M.</h2>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="description">They definitely helped with increasing milk supply, highy recommended!</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!----------------------------------------Information------------------------------------------->
+    <div id="information">  </div>
+    <section class="container-fluid pt-5 px-2">
+      <div class="text-center pt-2">
+        <h3>More About BGST</h3>
+      </div>
+      <div class="row">
+            <div class="col-4">
+                <div class="container ">
+                    <img src="i2.jpg" alt="faq" class="photo">
+                    <div class="middle">
+                        <div class="text">Frequently Asked Questions<br>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="col-4">
+                <div class="container">
+                    <img src="i1.jpg" alt="faq" class="photo">
+                    <div class="middle">
+                        <div class="text">What are Galactogogoes?<br>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="container">
+                    <img src="i3.jpg" alt="faq" class="photo">
+                    <div class="middle">
+                        <div class="text">Helpful Tips for Breastfeeding Moms<br>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------------Blogs------------------------------------------->
+    <div class="container-fluid pt-5" id="feedbacks">
+        <h3>Connect with Us</h3> 
+    </div>
+    <div class="container-{breakpoint} pt-2 overflow-hidden">
+        <div class="gallery-all">
+    
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/9.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/2.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/11.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/1.png" alt="Blog">
+                </a>
+            </div>
+            
+            <!-- SECOND LINE -->
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/15.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/13.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/16.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/3.png" alt="Blog">
+                </a>
+            </div>
+    
+            <!-- THIRD LINE -->
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/5.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/4.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/8.png" alt="Blog">
+                </a>
+            </div>
+            <div class="gallerya">
+                <a target="_blank" href="#">
+                    <img src="blogpics/6.png" alt="Blog">
+                </a>
+            </div>
+    
+    
+        </div> 
+    </div>  
+
+    <!----------------------------------------Footer------------------------------------------->
+    <div class="footer">
+        <div class="container-{breakpoint}" id="gray">
+            <div class="containe" id="grayin" >
+                <div class="row">
+                    <div class="col-4 ps-5" id="findtext">
+                        <h4>WHERE TO FIND US!</h4> <br>
+                        <p> B6L1 Henaville Subd.<br>
+                            Binabag<br>
+                            Brgy. Estaca<br>
+                            Compostela, Cebu<br><br>
+                            (+63) 919 2228 412<br><br><br>
+                            
+                            <a href="#" id="map">OPEN IN MAPS</a><br><br><br>
+                            Pre order online for pick up<br><br>
+        
+                            Pick-up hours:<br>
+                            Monday, Wednesday, Friday<br>
+                            9am - 5pm
+                        </p>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.9565507943872!2d124.00469753364631!3d10.435362301926272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9bd3b214edb27%3A0x50f306805ded2b5a!2sHenaville%20Subdivision!5e0!3m2!1sen!2sph!4v1669968639206!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-{breakpoint}">
+            <div class="row" id="pink" >
+                <div class="col-md-5 text-start">
+                    <h3 id="brand">Boobie Goodies & Sweet Treats</h3>
+                    <h5>@bgst</h5><br>
+                    <h6>Since 2018</h6>
+                    <br>
+                    <div class="d-flex fs-2 align-items-start ms-0" id="socmed">
+                        <i class="bi bi-facebook pe-5" href="#"></i>
+                        <i class="bi bi-instagram pe-5" href="#"></i>
+                        <i class="bi bi-twitter pe-5" href="#"></i>
+                        <i class="bi bi-pinterest pe-5" href="#"></i>
+                        <i class="bi bi-youtube pe-5" href="#"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 text-start pt-2">
+                    <h5>INFO</h5>
+                    <p class="lastlink pt-1">
+                        <a href="#">F.A.Q.</a><br>
+                        <a href="#">Contact US</a><br>
+                        <a href="#">Shipping Information</a><br>
+                        <a href="#">Refund and Return Policy</a><br>
+                        <a href="#">Terms and Conditions</a><br>
+                        <a href="#">Terms of Service</a><br>
+                    </p>
+                </div>
+                <div class="col-md-4 text-start pt-2">   
+                    <h5>SUBSCRIBE</h5>
+                    <p>Subscribe to receive speacial offers!</p>
+                    <form class="needs-validation mx-1 mx-md-4 align-items-start" novalidate>
+                        <div class="input-group-sm d-flex flex-row  mb-0">
+                            <i class="bi bi-envelope me-3 fs-3"></i>
+                            <div class="form-outline flex-fill mb-0">
+                                <input type="email" id="email" class="form-control" placeholder="Enter Email"required />
+                                <label class="form-label" for="email"></label>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Invalid Email</div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                            <button type="submit" class="btn btn-sm" id="subscribebtn" onclick="myFunction()" >Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <script>
+        // Carousel-slide
+        $("#carousel-slider").slick({
+            arrows: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            mobileFirst: true
+        });
+
+        // Swiper-slide
+        (function () {
+          'use strict'
+        
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.querySelectorAll('.needs-validation')
+        
+          // Loop over them and prevent submission
+          Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+              form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                  event.preventDefault()
+                  event.stopPropagation()
+                }
+        
+                form.classList.add('was-validated')
+              }, false)
+            })
+        })()
+
+        // Subscribe
+        function myFunction() {
+          alert("Thank you for your interest! We will surely update you on our latest promos and community updates!!!");
+        }
+
+    </script>
+</body>
+
+<!---- Swiper JS ---->
+<script src="swiper-bundle.min.js"></script>
+    
+<!---------JS-------->
+<script src="script.js"></script>
+
+</html>
